@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial';
+}
+
+.big-text {
+    font-size: 2em;
+}
+
+.huge-text {
+    font-size: 6em;
+}
+
+.portfolio-container section li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.portfolio-container section h1, .portfolio-container section p {
+    margin: 0;
+}
+
+.portfolio-container section p {
+    width: 60%;
+}
+
+.portfolio-container section .desc {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-container section .video {
+    width: 800px;
+    margin-top: 20px;
+}
+
+.portfolio-container section iframe {
+    position: unset;
+    aspect-ratio: 16 / 9;
+    width: 800px;
+    height: auto;
+    border: none;
+}
